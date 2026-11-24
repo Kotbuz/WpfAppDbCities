@@ -1,0 +1,15 @@
+﻿<Window x:Class="WpfAppDbCities.Auth"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppDbCities"
+        mc:Ignorable="d"
+        Title="Auth" Height="306" Width="212" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TextBox x:Name="tb_login" HorizontalAlignment="Center" Margin="0,59,0,0" TextWrapping="Wrap" Text="Login" VerticalAlignment="Top" Width="120" TextChanged="tb_login_TextChanged" LostFocus="tb_login_LostFocus" GotFocus="tb_login_GotFocus" Foreground="Black"/>
+        <TextBox x:Name="tb_pass" HorizontalAlignment="Center" Margin="0,113,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="120" TextChanged="tb_pass_TextChanged" GotFocus="tb_pass_GotFocus" LostFocus="tb_pass_LostFocus"/>
+        <Button x:Name="btn_auth" Content="Auth" HorizontalAlignment="Center" VerticalAlignment="Top" Width="120" Margin="0,152,0,0" Click="btn_auth_Click" Foreground="Black"/>
+
+    </Grid>
+</Window>
